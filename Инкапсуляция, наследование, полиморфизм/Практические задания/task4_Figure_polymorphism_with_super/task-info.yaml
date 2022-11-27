@@ -5,7 +5,7 @@ files:
   placeholders:
   - offset: 388
     length: 14
-    placeholder_text: '...  # TODO вызываем метод area базового класса'
+    placeholder_text: '...  # TODO c помощью super вызвать метод area базового класса'
 - name: __init__.py
   visible: false
 - name: tests/output.txt

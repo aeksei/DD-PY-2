@@ -3,28 +3,28 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 418
+  - offset: 424
     length: 54
     placeholder_text: |-
       # TODO какой декоратор следует применить?
           def is_leap_year(self, year: int) -> bool:
-  - offset: 533
-    length: 128
+  - offset: 539
+    length: 109
     placeholder_text: '...  # TODO записать условие проверки високосного года'
-  - offset: 811
+  - offset: 798
     length: 155
     placeholder_text: '...  # TODO вернуть количество дней указанного месяца'
-  - offset: 1099
+  - offset: 1086
     length: 68
     placeholder_text: '...  # TODO если указанный набор день, месяц и год неверны,
       то вызвать ошибку ValueError'
-  - offset: 1173
+  - offset: 1160
     length: 263
     placeholder_text: '# TODO записать getter и setter для дня'
-  - offset: 1442
+  - offset: 1429
     length: 281
     placeholder_text: '# TODO записать getter и setter для месяца'
-  - offset: 1729
+  - offset: 1716
     length: 262
     placeholder_text: '# TODO записать getter и setter для года'
 - name: __init__.py

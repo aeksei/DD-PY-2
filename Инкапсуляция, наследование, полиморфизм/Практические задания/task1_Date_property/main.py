@@ -6,17 +6,17 @@ class Date:
     )
 
     def __init__(self, day: int, month: int, year: int):
-        self.day = day
-        self.month = month
-        self.year = year
+        self._day = day
+        self._month = month
+        self._year = year
 
-        self.is_valid_date(self.day, self.month, self.year)
+        self.is_valid_date(self._day, self._month, self._year)
 
     @staticmethod
     def is_leap_year(year: int) -> bool:
         """Проверяет, является ли год високосным"""
         leap_condition = ((year % 4) == 0 and (year % 100) != 0) or ((year % 400) == 0)
-        return True if leap_condition else False
+        return leap_condition
 
     def get_max_day(self, month: int, year: int) -> int:
         """Возвращает максимальное количество дней в месяце для указанного года"""
@@ -65,7 +65,3 @@ class Date:
         if year <= 0:
             raise ValueError
         self._year = year
-
-
-if __name__ == "__main__":
-    ...

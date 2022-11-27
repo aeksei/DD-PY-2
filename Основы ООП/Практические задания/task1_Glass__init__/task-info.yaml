@@ -7,7 +7,7 @@ files:
   placeholders:
   - offset: 144
     length: 429
-    placeholder_text: '...  #  TODO инициализировать объект "Стакан"'
+    placeholder_text: '...  # TODO инициализировать объект "Стакан"'
   - offset: 607
     length: 92
     placeholder_text: '...  # TODO инициализировать два объекта типа Glass'

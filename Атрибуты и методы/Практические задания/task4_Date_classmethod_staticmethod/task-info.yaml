@@ -3,14 +3,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 555
+  - offset: 513
     length: 3
-    placeholder_text: '...  # TODO'
-  - offset: 701
+    placeholder_text: '...  # TODO реализовать метод'
+  - offset: 659
     length: 3
-    placeholder_text: '...  # TODO'
-  - offset: 829
+    placeholder_text: '...  # TODO используя атрибут класса DAY_OF_MONTH вернуть количество
+      дней в запрашиваемом месяце и году'
+  - offset: 787
     length: 3
-    placeholder_text: '...  # TODO'
+    placeholder_text: '...  # TODO проверить валидность даты'
 - name: __init__.py
   visible: false

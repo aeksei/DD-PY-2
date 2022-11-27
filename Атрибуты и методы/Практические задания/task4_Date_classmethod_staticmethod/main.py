@@ -5,8 +5,6 @@ class Date:
         (31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)  # високосный
     )
 
-    __slots__ = ('day', 'month', 'year')
-
     def __init__(self, day: int, month: int, year: int):
         self.day = day
         self.month = month
@@ -25,8 +23,3 @@ class Date:
     def is_valid_date(self, day: int, month: int, year: int):
         """Проверяет, является ли дата корректной"""
         ...
-
-
-if __name__ == "__main__":
-    # Write your solution here
-    pass

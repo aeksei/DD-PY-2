@@ -1,0 +1,15 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 238
+    length: 179
+    placeholder_text: '...  # TODO определить конструктор и перегрузить метод area'
+  - offset: 484
+    length: 163
+    placeholder_text: '...  # TODO определить конструктор и перегрузить метод area'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

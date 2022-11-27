@@ -1,0 +1,16 @@
+type: theory
+files:
+- name: __init__.py
+  visible: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 144
+    length: 429
+    placeholder_text: '...  #  TODO инициализировать объект "Стакан"'
+  - offset: 607
+    length: 92
+    placeholder_text: '...  # TODO инициализировать два объекта типа Glass'
+  - offset: 705
+    length: 78
+    placeholder_text: '# TODO попробовать инициализировать не корректные объекты'

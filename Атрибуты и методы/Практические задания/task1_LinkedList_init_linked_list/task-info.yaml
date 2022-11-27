@@ -1,0 +1,21 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 470
+    length: 189
+    placeholder_text: '# TODO составьте алгоритм, который свяжет узлы'
+  - offset: 665
+    length: 13
+    placeholder_text: '# TODO каким должен быть этот метод?'
+  - offset: 429
+    length: 31
+    placeholder_text: '...  # TODO обернуть все значения в класс Node и поместить
+      их в python список'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: node.py
+  visible: true

@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 948
+    length: 6
+    placeholder_text: '# TODO реализовать класс DoubleLinkedNode'
+- name: __init__.py
+  visible: false

@@ -1,0 +1,15 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 105
+    length: 15
+    placeholder_text: '# TODO задекорировать класс'
+  - offset: 2565
+    length: 413
+    placeholder_text: '# TODO определить метод __lt__'
+- name: __init__.py
+  visible: false
+- name: node.py
+  visible: true

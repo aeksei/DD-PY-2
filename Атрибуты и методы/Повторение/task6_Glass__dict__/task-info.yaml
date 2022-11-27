@@ -1,0 +1,14 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 144
+    length: 188
+    placeholder_text: |-
+      self.capacity_volume = capacity_volume  # объем стакана
+              self.occupied_volume = occupied_volume  # объем жидкости в стакане
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

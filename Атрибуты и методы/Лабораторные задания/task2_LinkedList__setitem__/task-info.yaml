@@ -1,0 +1,17 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 1740
+    length: 203
+    placeholder_text: '# TODO реализовать магический метод __setitem__'
+  - offset: 2342
+    length: 20
+    placeholder_text: '# TODO установить элементу с индексом 1 значение 100'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: node.py
+  visible: true

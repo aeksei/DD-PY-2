@@ -1,0 +1,12 @@
+type: theory
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 2127
+    length: 3
+    placeholder_text: '# TODO Реализовать класс DoubleLinkedList'
+- name: __init__.py
+  visible: false
+- name: node.py
+  visible: true

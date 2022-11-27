@@ -1,0 +1,17 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 1992
+    length: 141
+    placeholder_text: '...  # TODO проверка индекса'
+  - offset: 2143
+    length: 399
+    placeholder_text: '...  # TODO алгоритм удаления'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: node.py
+  visible: true

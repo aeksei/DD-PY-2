@@ -1,5 +1,5 @@
 content:
-- task7_Figure_super
-- task4_Figure_polymorphism_inheritance
-- task4_Figure_polymorphism_with_super
-- task1_Date_property
+- task1_Figure_super
+- task2_Figure_polymorphism_inheritance
+- task3_Figure_polymorphism_with_super
+- task4_Date_property

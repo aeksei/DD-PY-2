@@ -13,7 +13,7 @@ files:
     length: 29
     placeholder_text: '#  TODO доливаем воды в первый стакан'
   - offset: 1019
-    length: 23
+    length: 64
     placeholder_text: '#  TODO сравнить id объектов'
 - name: __init__.py
   visible: false

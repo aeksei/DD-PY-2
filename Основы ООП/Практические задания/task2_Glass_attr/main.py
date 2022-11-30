@@ -28,4 +28,4 @@ if __name__ == "__main__":
     print(glass1.capacity_volume, glass1.occupied_volume)
     print(glass2.capacity_volume, glass2.occupied_volume)
 
-    print(glass1 is glass2)
+    print(glass1 is glass2)  # проверяем, что это два разных объекта

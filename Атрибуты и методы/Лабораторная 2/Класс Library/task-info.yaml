@@ -2,6 +2,8 @@ type: output
 files:
 - name: __init__.py
   visible: false
+- name: tests/output.txt
+  visible: false
 - name: main.py
   visible: true
   placeholders:
@@ -18,5 +20,3 @@ files:
   - offset: 210
     length: 22
     placeholder_text: '# TODO написать класс Library'
-- name: tests/output.txt
-  visible: false
